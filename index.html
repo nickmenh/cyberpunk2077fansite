@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyberpunk 2077 Fansite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="kop">
+    <h1 id="titel">CYBERPUNK 2077</h1>
+    <p>Welkom in Night City! Klik op de titel om de kleur te veranderen.</p>
+    <a class="knop" href="personages.html">Bekijk de personages &rarr;</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Over de game</h2>
+      <p id="uitleg">
+        Cyberpunk 2077 is een open-wereld rollenspel van CD Projekt Red.
+        Jij speelt V, een huurling in Night City.
+      </p>
+      <button onclick="toonFeit()">Geef me een weetje!</button>
+    </section>
+
+    <section>
+      <h2>Wat vind ik er zo gaaf aan?</h2>
+      <div class="grid">
+        <div class="kaart" id="kaart1" onmouseover="veranderTekst('kaart1', 'Night City is gigantisch!')">
+          <h3>De wereld</h3>
+          <p>Beweeg je muis hierover.</p>
+        </div>
+        <div class="kaart" id="kaart2" onmouseover="veranderTekst('kaart2', 'Keanu Reeves speelt Johnny Silverhand!')">
+          <h3>Het verhaal</h3>
+          <p>Beweeg je muis hierover.</p>
+        </div>
+        <div class="kaart" id="kaart3" onmouseover="veranderTekst('kaart3', 'Je kiest zelf je cyberware!')">
+          <h3>De wapens</h3>
+          <p>Beweeg je muis hierover.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+<footer><p>GitHub: <a href="https://github.com/nickmenh/cyberpunk2077fansite.git">https://github.com/nickmenh/cyberpunk2077fansite.git</a></p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

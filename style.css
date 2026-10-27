@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: black;
+  background-image: url("images/achtergrond1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 { font-size: 60px; color: #fcee09; margin: 0; }
+h2 { font-size: 32px; color: #00f0ff; }
+h3 { font-size: 22px; }
+p  { font-size: 16px; }
+
+#kop {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #111;
+  background-image: url("images/achtergrond2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#titel { cursor: pointer; }
+
+.knop, button {
+  display: inline-block;
+  background-color: #fcee09;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.knop:hover, button:hover { background-color: #ff003c; color: white; }
+
+main { max-width: 1000px; margin: auto; padding: 20px; }
+section { background-color: rgba(0, 0, 0, 0.7); padding: 20px; margin-bottom: 20px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.kaart {
+  background-color: rgba(20, 20, 20, 0.9);
+  border: 2px solid #00f0ff;
+  padding: 15px;
+}
+
+/* Foto's onder de personages */
+.kaart img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 10px;
+  border: 2px solid #fcee09;
+}
